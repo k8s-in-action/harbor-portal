@@ -1,0 +1,19 @@
+harbor docker-compose.yml file
+
+supported arm64 / amd64 
+
+steps:
+1.git clone 
+https://github.com/k8s-in-action/harbor-portal.git
+
+2.modify docker-compose.yml file
+#search: to be replaced
+reg.mydomain.com -> your host ip
+9080 -> your wanted port
+
+3. run
+docker compose up -docker
+
+4. login
+open http://your host ip:your wanted port
+default user: admin, default password: bitnami
